@@ -125,4 +125,5 @@ async def stats(ctx):
     embed.add_field(name="Member Count", value=ctx.guild.member_count)
     embed.add_field(name="Online", value=f'{len(online_members)} :green_circle:', inline=True)
     embed.add_field(name="Offline", value =f'{len(offline_members)} :red_circle:', inline = True)
-    await ctx.send(embed=embed)   
+    await ctx.send(embed=embed)
+ client.run("OTYyMzM3ODA0MDk5MTQ1NzU4.YlGE6w.sBQzMRLvpmd7EhoTIfWg4XFNx6s")
